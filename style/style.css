@@ -74,18 +74,24 @@ a{
   margin: 0;
   border: 0;
   padding: 10px;
-  box-shadow: 0px 5px 10px lightgray;
 }
 
 .header h1{
   margin-top: 10;
   margin-bottom: 10;
+  line-height: 5px;
+}
+
+.header p{
+  text-align: center;
+  font-family: "Work Sans";
+  line-height: 5px;
 }
 
 .bio{
   width: 100%;
   display: flex;
-  border-bottom: 2px solid black;
+  box-shadow: 0px 15px 15px lightgray;
 }
 
 .texto-bio{
@@ -108,7 +114,7 @@ a{
   object-fit: cover;
 }
 
-.Textos{
+.Textos, .audiovisual, .secciongrafica{
   padding: 100px;
   padding-top: 20px;
 }
@@ -117,6 +123,40 @@ a{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.grafica{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fotografica, .parrafografica{
+  width: 50%;
+}
+
+.fotografica img{
+  width: 100%;
+}
+
+.video{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.parrafovideo{
+  width: 40%;
+  padding: 10px;
+}
+
+.parrafovideo p{
+  text-align: justify;
+  font-family: "EB Garamond";
+}
+
+.parrafovideo h3{
+  text-align: right;
 }
 
 .parrafotexto, .imagentexto{
@@ -145,4 +185,10 @@ a{
 .parrafotexto p{
   text-align: justify;
   font-family: "EB Garamond";
+}
+
+.pie{
+  font-family: "Work Sans";
+  color: gray;
+  text-align: center;
 }
