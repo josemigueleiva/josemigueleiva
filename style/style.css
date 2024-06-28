@@ -1,0 +1,79 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+</style>
+
+.eb-garamond-normal{
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.work-sans-normal {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.work-sans-bold {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: bold;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+  margin:0;
+}
+
+h1{
+  font-family: "Work Sans";
+  font-size: 40px;
+  text-align: center;
+  background-color: white;
+}
+
+h2{
+  font-family: "Work Sans";
+}
+
+.header{
+  background-color: white;
+  height: 100px;
+  width: 100%;
+  margin: 0;
+  border: 0;
+  padding: 10px;
+  box-shadow: 0px 5px 10px lightgray;
+}
+
+.header h1{
+  margin-top: 10;
+  margin-bottom: 10;
+}
+
+.bio{
+  width: 100%;
+  display: flex;
+}
+
+.texto-bio{
+  font-family: "EB Garamond";
+  font-size: 20px;
+  width: 50%;
+  padding: 100px;
+}
+
+.foto-bio{
+  width: 50%;
+}
+
+.foto-bio img{
+  width: 100%;
+}
